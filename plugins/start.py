@@ -30,7 +30,7 @@ from config import (
 from helper_func import subscribed, encode, decode, get_messages, get_shortlink, get_verify_status, update_verify_status, get_exp_time
 from database.database import add_user, del_user, full_userbase, present_user
 from shortzy import Shortzy
-
+from config import *
 """add time in seconds for waiting before delete 
 1 min = 60, 2 min = 60 × 2 = 120, 5 min = 60 × 5 = 300"""
 # SECONDS = int(os.getenv("SECONDS", "1200"))
@@ -204,8 +204,9 @@ async def not_joined(client: Client, message: Message):
     except IndexError:
         pass
 
-    await message.reply(
-        text = FORCE_MSG.format(
+    await message.reply_photo(
+         photo = FORCE_PIC,
+        caption = FORCE_MSG.format(
                 first = message.from_user.first_name,
                 last = message.from_user.last_name,
                 username = None if not message.from_user.username else '@' + message.from_user.username,
