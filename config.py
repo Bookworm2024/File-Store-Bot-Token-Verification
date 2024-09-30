@@ -3,17 +3,17 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-APP_ID = int(os.environ.get("APP_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7463305761:AAEm0Hw0-HUKmQRRxdG53YM7U6sKVo7rJ2I")
+APP_ID = int(os.environ.get("APP_ID", "21145186"))
+API_HASH = os.environ.get("API_HASH", "daa53f4216112ad22b8a8f6299936a46")
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002176895088"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6497757690"))
-PORT = os.environ.get("PORT", "8080")
+OWNER_ID = int(os.environ.get("OWNER_ID", "6011680723"))
+PORT = os.environ.get("PORT", "8074")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://infohubstore06:CUXzlOmJvWITtrxn@gamingthree.i5ogs.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "codeflix_bots")
 
 #Shortner (token system) 
@@ -25,7 +25,9 @@ IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/How_to_Download_7x/35") 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002123546604"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002398866124"))
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002023302199"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
