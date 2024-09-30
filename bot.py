@@ -66,7 +66,7 @@ class Bot(Client):
                 self.LOGGER(__name__).warning(a)
                 self.LOGGER(__name__).warning("Bot can't Export Invite link from Force Sub Channel!")
                 self.LOGGER(__name__).warning(f"Please Double check the FORCE_SUB_CHANNEL3 value and Make sure Bot is Admin in channel with Invite Users via Link Permission, Current Force Sub Channel Value: {FORCE_SUB_CHANNEL3}")
-                self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/weebs_support for support")
+                self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/rohit_1888 for support")
                 sys.exit()
         try:
             db_channel = await self.get_chat(CHANNEL_ID)
@@ -80,8 +80,8 @@ class Bot(Client):
             sys.exit()
 
         self.set_parse_mode(ParseMode.HTML)
-        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/codeflix_bots")
-        self.LOGGER(__name__).info(f""" BOT DEPLOYED BY @CODEFLIX_BOTS""")
+        self.LOGGER(__name__).info(f"Bot Running..!\n\nConfigured by \nhttps://t.me/rohit_1888")
+        self.LOGGER(__name__).info(f""" BOT DEPLOYED BY @rohit_1888""")
         self.username = usr_bot_me.username
         #web-response
         app = web.AppRunner(await web_server())
