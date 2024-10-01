@@ -34,7 +34,7 @@ from config import *
 
 """add time in seconds for waiting before delete 
 1 min = 60, 2 min = 60 × 2 = 120, 5 min = 60 × 5 = 300"""
-# SECONDS = int(os.getenv("SECONDS", "1200"))
+SECONDS = int(os.getenv("SECONDS", "60"))
 
 @Bot.on_message(filters.command('start') & filters.private & subscribed)
 async def start_command(client: Client, message: Message):
@@ -127,8 +127,8 @@ async def start_command(client: Client, message: Message):
                 except:
                     pass
 
-            SD = await message.reply_text("Baka! Files will be deleted After 300 seconds. Save them to the Saved Message now!")
-            await asyncio.sleep(300)
+            SD = await message.reply_text("Baka! Files will be deleted After 60 seconds. Save them to the Saved Message now!")
+            await asyncio.sleep(60)
 
             for snt_msg in snt_msgs:
                 try:
