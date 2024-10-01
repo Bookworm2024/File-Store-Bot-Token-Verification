@@ -30,6 +30,7 @@ from config import (
 from helper_func import subscribed, encode, decode, get_messages, get_shortlink, get_verify_status, update_verify_status, get_exp_time
 from database.database import add_user, del_user, full_userbase, present_user
 from shortzy import Shortzy
+from config import *
 
 """add time in seconds for waiting before delete 
 1 min = 60, 2 min = 60 × 2 = 120, 5 min = 60 × 5 = 300"""
