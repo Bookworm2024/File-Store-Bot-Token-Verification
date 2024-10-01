@@ -34,7 +34,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/WhV.jpg")
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "ʜᴇʟʟᴏ ᴛʜᴇʀᴇ {mention}!!🌚\n\nɪ ꜱʜᴀʀᴇ ꜰɪʟᴇꜱ ᴡɪᴛʜɪɴ ɪɴꜰᴏʜᴜʙ ɴᴇᴛᴡᴏʀᴋꜱ ᴀɴᴅ ʏᴏᴜ ᴀʀᴇ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴜꜱᴇ ᴍᴇ! ⚡️.")
+START_MSG = os.environ.get("START_MESSAGE", "ʜᴇʟʟᴏ ᴛʜᴇʀᴇ {mention}!!🌚\n\nɪ ꜱʜᴀʀᴇ ꜰɪʟᴇꜱ ᴡɪᴛʜɪɴ ɪɴꜰᴏʜᴜʙ ɴᴇᴛᴡᴏʀᴋꜱ ᴀɴᴅ ʏᴏᴜ ᴀʀᴇ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴜꜱᴇ ᴍᴇ! ⚡️")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "5178714818").split()):
@@ -55,7 +55,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "ꜱᴏʀʀʏ ʙᴜᴛ ᴏɴʟʏ ᴀᴜᴛʜᴏʀɪꜱᴇᴅ ᴀᴅᴍɪɴꜱ ꜰʀᴏᴍ <b>ɪɴꜰᴏʜᴜʙ ɴᴇᴛᴡᴏʀᴋꜱ</b> ᴄᴀɴ ᴜꜱᴇ ᴍᴇ. ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ ᴀᴅᴍɪɴꜱ, ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴍʏ ꜰʀɪᴇɴᴅ - @infohubsupport_robot"
+USER_REPLY_TEXT = "ꜱᴏʀʀʏ ʙᴜᴛ ᴏɴʟʏ ᴀᴜᴛʜᴏʀɪꜱᴇᴅ ᴀᴅᴍɪɴꜱ ꜰʀᴏᴍ <b>ɪɴꜰᴏʜᴜʙ ɴᴇᴛᴡᴏʀᴋꜱ</b> ᴄᴀɴ ᴜꜱᴇ ᴍᴇ ᴅɪʀᴇᴄᴛʟʏ. ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ ᴀᴅᴍɪɴꜱ, ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴍʏ ꜰʀɪᴇɴᴅ - @infohubsupport_robot"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(6011680723)
