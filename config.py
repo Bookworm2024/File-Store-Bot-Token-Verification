@@ -37,7 +37,7 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/WhV.jpg")
 START_MSG = os.environ.get("START_MESSAGE", "ʜᴇʟʟᴏ ᴛʜᴇʀᴇ {mention}!!🌚\n\nɪ ꜱʜᴀʀᴇ ꜰɪʟᴇꜱ ᴡɪᴛʜɪɴ ɪɴꜰᴏʜᴜʙ ɴᴇᴛᴡᴏʀᴋꜱ ᴀɴᴅ ʏᴏᴜ ᴀʀᴇ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴜꜱᴇ ᴍᴇ! ⚡️.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "6497757690").split()):
+    for x in (os.environ.get("ADMINS", "5178714818").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
