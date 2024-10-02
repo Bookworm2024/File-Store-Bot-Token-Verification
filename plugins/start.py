@@ -139,8 +139,11 @@ async def start_command(client: Client, message: Message):
 
         elif verify_status['is_verified']:
             reply_markup = InlineKeyboardMarkup(
-                [[InlineKeyboardButton("⚡️ ᴀʙᴏᴜᴛ", callback_data = "about"),
-                  InlineKeyboardButton('🍁 ʟɪʙʀᴀʀʏ', url='https://t.me/book_novel_pdfs_audiobooks_free')]]
+                [[InlineKeyboardButton("⚡️ ᴅᴇᴛᴀɪʟꜱ", callback_data = "about"),
+                  InlineKeyboardButton('🍁 ʟɪʙʀᴀʀʏ', url='https://t.me/book_novel_pdfs_audiobooks_free')
+                 ],[
+                    InlineKeyboardButton('🍿 ᴍᴏᴠɪᴇꜱ & ᴡᴇʙꜱᴇʀɪᴇꜱ', url='https://t.me/movies_series_requestt')
+                ]]
             )
             await message.reply_text(
                 text=START_MSG.format(
