@@ -21,7 +21,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                         InlineKeyboardButton('✇ ᴜᴘᴅᴀᴛᴇꜱ 〄', url='https://t.me/infohub_updates'),
                         InlineKeyboardButton('〄 Qᴜᴏᴛᴇꜱ ✇', url='https://t.me/Motivation_Inspiration_Quote')
                     ],[
-                        InlinekeyboardButton('⍟ ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴꜱ ⍟', url='https://t.me/infohubsupport_robot')
+                        InlineKeyboardButton('⍟ ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴꜱ ⍟', url='https://t.me/infohubsupport_robot')
                     ]
                 ]
             )
