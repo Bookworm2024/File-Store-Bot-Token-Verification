@@ -15,13 +15,13 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                    InlineKeyboardButton("✪ ᴄʟᴏsᴇ ⌬", callback_data = "close"),
-                    InlineKeyboardButton('⌬ ꜱᴜᴘᴘᴏʀᴛ ✪', url='https://t.me/Infohub_Tech')
+                    InlineKeyboardButton('✇ ᴜᴘᴅᴀᴛᴇꜱ 〄', url='https://t.me/infohub_updates'),
+                    InlineKeyboardButton('〄 Qᴜᴏᴛᴇꜱ ✇', url='https://t.me/Motivation_Inspiration_Quote')
                     ],[
-                        InlineKeyboardButton('✇ ᴜᴘᴅᴀᴛᴇꜱ 〄', url='https://t.me/infohub_updates'),
-                        InlineKeyboardButton('〄 Qᴜᴏᴛᴇꜱ ✇', url='https://t.me/Motivation_Inspiration_Quote')
+                        InlineKeyboardButton('✇ ᴀᴅᴍɪɴꜱ 〄', url='https://t.me/infohubsupport_robot'),
+                        InlineKeyboardButton('✪ ꜱᴜᴘᴘᴏʀᴛ ⌬', url='https://t.me/Infohub_Tech')
                     ],[
-                        InlineKeyboardButton('⍟ ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴꜱ ⍟', url='https://t.me/infohubsupport_robot')
+                        InlineKeyboardButton("✪ ᴄʟᴏsᴇ ⌬", callback_data = "close")
                     ]
                 ]
             )
